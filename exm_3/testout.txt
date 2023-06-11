@@ -1,0 +1,23 @@
+l1:
+t1=a3+15
+if >0xa goto l2
+goto l0
+l2:
+if x2=07 goto l3
+goto l1
+l3:
+l4:
+if y<z goto l5
+goto l1
+l5:
+t3=x*y
+t2=t3/z
+y=t2
+goto l4
+goto l1
+l0:
+t5=b*c
+t4=+d
+c=t4
+l6:
+
